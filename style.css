@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    background-color:deepskyblue
+}
+h1{
+    font-size: 50px;
+    color: darkblue;
+}
+.heigh-light{
+    color:coral
+}
+
+.link-button{
+    text-decoration: none;
+    border-radius: 5px ;
+    padding: 10px 20px;
+    background-image: linear-gradient(lightSalmon,tomato);
+    color: wheat;
+    font-weight: 700;
+   
+}
+
+.half-width{
+    width:30%;
+    float: left;
+    margin-left: 5%;
+    padding-left:2%;
+   
+}
+.half-width img{
+    width: 60%;
+   
+}
+.top-banner{
+    background: no-repeat;
+}
+
+section{
+    height: 500px;  
+}
+
+.center{
+    text-align: center;
+}
+.color{
+    color: coral;
+}
+.same-work{
+   box-shadow: 5px 5px 10px gray;
+   border-radius: 5px;
+   height: 60%;
+   background-position-x: right;
+   margin: 0;
+   margin: 5px 5px;
+   
+}
+
+.footer{
+    text-align: center;
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    color: chocolate;
+}
+.shape-section{
+    display:flex;
+}
+
+.footer-section{
+    background-image: url(shapes/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-left: 22%;
+    margin-top: 7%;
+    padding-left: 3%;
+    padding-top: 2%;
+    margin-bottom: 0;
+}
+.footer-section{
+    display: flex;
+    /*! flex-wrap: \\; */
+    height: 300px;
+    align-items: baseline;
+}
+
+.footer-section a{
+    margin-left: 350px;
+    margin-top: 90px;
+}
